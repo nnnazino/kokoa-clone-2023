@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import 'reset.css'; /* reset css파일 추가 */
+@import 'status-bar.css';
+@import 'variables.css';
+
+/* Components */
+@import 'components/status-bar.css';
+@import 'components/nav-bar.css';
+
+/* Screens */
+@import 'screens/login.css';
+
+body {
+  height: 1000vh;
+  font-family: 'Open Sans', sans-serif;
+}
